@@ -7,10 +7,10 @@
   
   原理
   
-![sample.png]()
+![sample.png](sample.png)
   
 ## Example
 
-![mmexport1504837705156.jpg]()
+![mmexport1504837705156.jpg](mmexport1504837705156.jpg)
   
   
