@@ -1,0 +1,49 @@
+
+# evil function call for remote command execute
+
+system({arg1})
+exec({arg1})
+popen({arg1},nothing)
+passthru({arg1})
+shell_exec({arg1})
+proc_open({arg1})
+# pcntl_exec(execute_file_path,execute_argument)
+pcntl_exec({arg1},{arg2})
+
+
+# evil function call for remote code execute
+
+eval({arg1})
+
+
+# evil file include check
+
+require#{expr}
+require_once#{expr}
+include#{expr}
+include_once#{expr}
+
+
+# evil function call for leak file information
+
+file_get_contents({arg1})
+readfile({arg1},{arg2})
+
+
+# other scan strategy 
+
+# assert check
+assert({expr})
+
+# unserialize check
+unserialize({expr})
+
+# information leak
+phpinfo()
+
+# import
+
+# xss check
+#echo#{expr}
+
+
